@@ -1,0 +1,9 @@
+c1 3 
+127.0.0.1:54000
+127.0.0.1:55000
+127.0.0.1:56000
+b1 reserve
+b2 reserve
+b3 reserve
+sleep 1000
+b3 return

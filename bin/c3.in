@@ -1,0 +1,12 @@
+c3 3 
+127.0.0.1:56000
+127.0.0.1:54000
+127.0.0.1:55000
+sleep 1500
+b1 reserve
+b2 reserve
+b3 reserve
+b4 reserve
+b5 reserve
+b6 reserve
+b7 reserve
