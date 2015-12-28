@@ -88,13 +88,16 @@ public class Slave {
 								String result = din.nextLine();
 								if(result.equals("success")){
 									String client = "c" + clientId;
-									System.out.println(client + " " + tempS[0]);
+///									System.out.println(client + " " + tempS[0]);
+									System.out.println(client + ": " + "vibrated");
 								} else if(result.equals("fail")){
 									String client = "c" + clientId;
-									System.out.println("fail " + client + " " + tempS[0]);
+///									System.out.println("fail " + client + " " + tempS[0]);
+									System.out.println(client + ": " + "vibrated");
 								} else if(result.equals("success freed")){
 									String client = "c" + clientId;
-									System.out.println("free " + client + " " + tempS[0]);
+///									System.out.println("free " + client + " " + tempS[0]);
+									System.out.println(client + ": " + "vibrated");
 								}
 							}} catch(IOException|NoSuchElementException e){
 								//System.out.println("readline io exception");

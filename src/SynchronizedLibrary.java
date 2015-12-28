@@ -14,6 +14,7 @@ public class SynchronizedLibrary {
 	
 	public synchronized boolean returnBook(int clientId, int bookId){
 		try{
+			Thread.sleep(1500);
 			if(books[bookId]==clientId){
 				books[bookId] = -1;
 				return true;
@@ -26,6 +27,7 @@ public class SynchronizedLibrary {
 	
 	public synchronized boolean reserveBook(int clientId, int bookId){
 		try{
+			Thread.sleep(1500);
 			if(books[bookId]==-1){
 				books[bookId] = clientId;
 				return true;
