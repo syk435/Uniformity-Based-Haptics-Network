@@ -2,7 +2,7 @@
 
 Current Demo: https://www.youtube.com/watch?v=FhQqKZNWBOo
 
-A common infrastructure to foster intercommunication among haptics-utilizing device groups. The main goal of this intercommunication would be to produce a more “polite”  and intuitive haptics user experience for a user who has multiple haptics enabled master/slave device groups. This will be done through:
+A common fault-tolerant, distributed network to foster intercommunication among haptics-utilizing device groups. The main goal of this intercommunication would be to produce a more “polite”  and intuitive haptics user experience for a user who has multiple haptics enabled master/slave device groups. This will be done through:
 
 Turn-based “polite” system that will prevent all of a user’s device from simultaneously bombarding the user with haptic info/notifications, but rather promote a natural and intelligent succession of haptics interactions that promote user comfort
 
