@@ -1,3 +1,0 @@
-Abstract
-
-This paper will discuss the implementation and design of an input-driven mesh system of haptic devices connected to a density sensor. The mesh system of haptic devices will use Ricart-Agarwala to ensure a "polite" turn based activation system. This system will allow the handicapped to experience haptic feedback on different surfaces regardless of the materials of the surface. Using a weighted algorithm, we shall aggregate the density of materials to a single mean average. With the average, we can scale up/down the vibration levels via the base formulae, 1/x. 
