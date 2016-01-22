@@ -9,7 +9,7 @@ public class ServerTCPAndMessageListenerThread extends Thread {
 	
 	Socket client;
 	volatile SynchronizedLibrary library;
-	volatile Master server;
+	volatile DistributedCrashTolerantNetwork server;
 	int otherServerId;
 	boolean paused = false;
 	
@@ -17,7 +17,7 @@ public class ServerTCPAndMessageListenerThread extends Thread {
 	threadType type = threadType.CLIENT;
 	boolean firstTime;
 	
-	public ServerTCPAndMessageListenerThread(Socket s, Master server){
+	public ServerTCPAndMessageListenerThread(Socket s, DistributedCrashTolerantNetwork server){
 		this.client = s;
 		this.library = server.library;
 		this.server = server;

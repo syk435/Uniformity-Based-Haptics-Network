@@ -5,12 +5,12 @@ import java.io.InputStreamReader;
 
 public class ServerCommandReaderThread extends Thread{
 	
-	volatile Master server;
+	volatile DistributedCrashTolerantNetwork server;
 	boolean paused;
 	BufferedReader in;
 	
 	
-	public ServerCommandReaderThread(Master server, BufferedReader in){
+	public ServerCommandReaderThread(DistributedCrashTolerantNetwork server, BufferedReader in){
 		this.server = server;
 		this.in = in;
 	}

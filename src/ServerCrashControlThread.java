@@ -7,12 +7,12 @@ import java.net.UnknownHostException;
 
 
 public class ServerCrashControlThread extends Thread{
-	volatile Master server;
+	volatile DistributedCrashTolerantNetwork server;
 	String[] serverIps;
 	int[] sendThreadStarted;
 	boolean sendThreadsConnected;
 	
-	public ServerCrashControlThread(Master server, String[] ips){
+	public ServerCrashControlThread(DistributedCrashTolerantNetwork server, String[] ips){
 		this.server = server;
 		this.serverIps = ips;
 		sendThreadStarted = new int[serverIps.length];

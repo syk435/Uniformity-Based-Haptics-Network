@@ -7,14 +7,14 @@ import java.util.Scanner;
 
 public class ServerMessageSenderThread extends Thread{
 	
-	volatile Master server;
+	volatile DistributedCrashTolerantNetwork server;
 	Socket socket;
 	boolean paused = false;
 	int otherServerId;
 	Scanner din;
 	PrintStream pout;
 	
-	public ServerMessageSenderThread(Socket socket, Master server, int otherServerId){
+	public ServerMessageSenderThread(Socket socket, DistributedCrashTolerantNetwork server, int otherServerId){
 		this.server = server;
 		this.socket = socket;
 		this.otherServerId = otherServerId;
