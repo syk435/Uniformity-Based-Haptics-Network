@@ -10,7 +10,7 @@ public class DirectClock {
 			clock[i] = 0;
 		}
 		clock[myId] = 1;
-		clock[0] = Integer.MAX_VALUE; //BECAUSE DIS NIGGA NEVER GONNA BE A PROCESS. NO PROCESS 0
+		clock[0] = Integer.MAX_VALUE; //BECAUSE  NEVER GONNA BE A PROCESS. NO PROCESS 0
 	}
 	
 	public int getValue(int i){
